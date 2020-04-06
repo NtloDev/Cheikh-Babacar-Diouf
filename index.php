@@ -46,7 +46,7 @@
             if (isset($_POST['valider']))
             {
                 $tablangue=$_POST['langue'];
-                if(!(empty($_POST['prenom'] && $_POST['nom'] && $_POST['adress'] && $_POST['numero'] && $_POST['confirmer'] && $_POST['genre'] && $_POST['choix'] && $tablangue && $_POST['commentaire'])))
+                if(!(empty($_POST['prenom'] && $_POST['nom'] && $_POST['adress'] && $_POST['numero'] && $_POST['confirmer'] && $_POST['genre'] && $_POST['choix'] && $_POST['commentaire'])))
                 {
                     if (strlen($_POST['prenom'])>=2 && strlen($_POST['nom'])>=2)
                     {
